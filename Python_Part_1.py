@@ -1,4 +1,3 @@
-'''
 # Exercise: Loop through a list of users and print a message for each one.
 # If the user's name starts with "A", print that they are allowed to run the test.
 # Otherwise, print that the user is skipped.
@@ -63,7 +62,6 @@ for user in user_names:
     else:
         print(f"Skipping {user}")
 
-'''
 
 import time
 users = {
@@ -107,7 +105,6 @@ role_counts = {
 print("Role counts:", role_counts)
 print(f"Total tests run: {run_count}")
 
-'''
 available_tests = {
     "login": True,
     "register": True,
@@ -128,7 +125,7 @@ while user_input in available_tests:
 
 else:
     print("Test not found")
-'''
+
 
 
 
